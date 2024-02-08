@@ -1,14 +1,24 @@
-import React from "react";
+import Link from "next/link";
 
 function index() {
   return (
     <>
-      <h1>Hello from,</h1>
-      <h1>
-        <b>
-          <i>Jivak Sute</i>
-        </b>
-      </h1>
+      <nav>
+        <ul className="menu-bar">
+          <li>
+            <Link href="/">Index</Link>
+          </li>
+          <li>
+            <Link href="/home">Home</Link>
+          </li>
+          <li>
+            <Link href="/about">about</Link>
+          </li>
+          <li>
+            <Link href="/contact">contact</Link>
+          </li>
+        </ul>
+      </nav>
     </>
   );
 }

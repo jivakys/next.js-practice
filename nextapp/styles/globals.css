@@ -2,7 +2,23 @@
   display: flex;
   justify-content: space-evenly;
 }
-ul li {
-  text-decoration: none;
+.menu-bar ul li {
+  font-weight: 700;
+  color: black;
+  list-style: none;
   outline: none;
+  text-decoration: none;
+}
+/* ul li Link {
+  text-decoration: none;
+} */
+#notfound {
+  /* width: fit-content; */
+  /* height: 100%; */
+  border: 5px solid red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
 }

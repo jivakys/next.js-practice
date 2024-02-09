@@ -12,10 +12,10 @@ function index() {
             <Link href="/home">Home</Link>
           </li>
           <li>
-            <Link href="/about">about</Link>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <Link href="/contact">contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

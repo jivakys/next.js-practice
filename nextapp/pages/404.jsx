@@ -1,6 +1,11 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const ErrorPage = () => {
+  const router = useRouter();
+  const handleClick = () => {
+    router.push("/");
+  };
   return (
     <>
       <nav>
@@ -29,7 +34,11 @@ const ErrorPage = () => {
             The Page You are looking for might have been removed had it's name
             changed or is Tempararily unavailable.
           </p>
-          <a href="#">Back To Home Page</a>
+          {/* <Link href="/">
+            <b>Back To HomePage</b>
+          </Link> */}
+          {/* <a onClick={() => router.push("/")}>Back To HomePage</a> */}
+          <a onClick={handleClick}>Back To HomePage</a>
         </div>
       </div>
     </>
